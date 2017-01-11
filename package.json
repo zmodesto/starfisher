@@ -1,0 +1,15 @@
+{
+  "name": "starfisher",
+  "version": "1.0.0",
+  "description": "starfisher deluxe",
+  "main": "starfisher.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "sqlite3": "^3.1.8"
+  }
+}

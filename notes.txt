@@ -1,0 +1,24 @@
+--
+sup
+this is misc notes for me
+--
+
+----
+-------- node stuff
+----
+
+-- [to start node app]
+    > node starfisher.js
+
+----
+-------- git stuff
+----
+
+-- [to add all files except those specific by gitignore]
+    > git add .
+
+-- [to unstage all files that have been added but not committed]
+    > git reset
+
+
+--
