@@ -1,5 +1,6 @@
-var express = require('express')
-var app = express()
+// main module for project. run this.
+var express = require('express');
+var app = express();
 var fs = require("fs");
 var dbfile = "dbdata/test.db";
 var exists = fs.existsSync(dbfile);
