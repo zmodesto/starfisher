@@ -10,7 +10,8 @@ TODO: learn a proper markup style, ffs
 ----------------------------------------------------------------------
 
 -- [to start node app]
-    > node starfisher.js
+    > npm start
+    (which, right now, just does this: > node starfisher.js )
 
 ----------------------------------------------------------------------
 -- git stuff
@@ -21,6 +22,5 @@ TODO: learn a proper markup style, ffs
 
 -- [to unstage all files that have been added but not committed]
     > git reset
-
 
 --
