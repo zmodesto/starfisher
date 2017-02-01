@@ -59,8 +59,9 @@ db.close();
 
 app.listen(app.get('port'), function () {
   console.log('Started! App is now listening on port: ' + app.get('port'));
-})
+});
 
 app.get('/', function (req, res) {
-  res.send('Hello this is the starfisher frontpage')
-})
+//  res.send('Hello this is the starfisher frontpage')
+    res.render('index', { title: 'Hey', message: 'Hello there!'})
+});

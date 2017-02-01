@@ -11,7 +11,9 @@ router.use(function timeLog (req, res, next) {
 
 // define route for: /users
 router.get('/', function (req, res) {
-    res.send('Users: Home page')
+//    res.send('Users: Home page')
+    res.render('index',
+    { title: 'Users Page', message: 'This is the Users page'})
 });
 
 // define route for: /users/about
